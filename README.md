@@ -91,7 +91,7 @@ Rails-Crud project is a sample online rental store, which makes use of sample da
 
 #### Tables are inter-connected through foreign keys or through other tables, and those connections are defined in project's app/models:
 
-| Table 1 connects	| Table 2				| through table	| through foreign key 	|
+| customer              	| order 				| products	| address                                	|
 |-------------------|-----------------------|---------------|-----------------------|
 | actor				| film					| film_actor	|					  	|
 | film 				| category 				| film_category	|						|
