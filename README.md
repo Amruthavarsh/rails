@@ -15,12 +15,11 @@ staff.password = <your password>
 staff.save
 ```
 
-6. Run Server:
+
 ```
 rails server --port:4200
 ```
 
-7. Open your browser, navigate to:
 * 'localhost:4200' for public access
 * 'localhost:4200/admin' for admin access & login using admin account created above
 * 'localhost:4200/staff' for staff access & login using staff account created above
@@ -31,32 +30,28 @@ Rails-Crud project is a sample online rental store, which makes use of sample da
 
 #### Project uses following tables from sakila database:
 * Table Name
-* Actor
+* customer
 * Address
-* Category
-* City
+* order
+* product
 * Country
 * Customer
-* Film
-* Film Actor
-* Film Category
-* Inventory
-* Rental
+
 
 
 #### Added tables:
 * Admin
 * Customer Payment Info
-* Rental Pending
-* Staff
+* order no
+* status
 
 
 #### Tables are inter-connected through foreign keys or through other tables, and those connections are defined in project's app/models:
 
 | customer              	| order 				| products	                | address                                	
 |-------------------------------|---------------------------------------|-------------------------------|---------
-| varshini			| order no:567			        | SKU:	                        |					  	
-| 8765439879 			| date of order:10/09/23		| MRP:$56	                |						
+| varshini			         | order no:567			        | SKU:	                        |					  	
+| 8765439879 			       | date of order:10/09/23		| MRP:$56	                |						
 | amruthavaesh123@gmail.com 	| order status:completed	        | quality:5			| 				
 | rajajinagar,blore-10 		| billing and shipping address:blore-10	| discount and net price:0-$56	| 						
 
