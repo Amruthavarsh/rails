@@ -91,18 +91,13 @@ Rails-Crud project is a sample online rental store, which makes use of sample da
 
 #### Tables are inter-connected through foreign keys or through other tables, and those connections are defined in project's app/models:
 
-| customer              	| order 				| products	| address                                	|
-|-------------------|-----------------------|---------------|-----------------------|
-| actor				| film					| film_actor	|					  	|
-| film 				| category 				| film_category	|						|
-| film 				| inventory 			| 				| film_id				|
-| film 				| rental 				| inventory 	| 						|
-| film 				| rentals_pending		| 				| film_id 				|
-| customer 			| rental 				| 				| customer_id 			|
-| customer 			| inventory 			| rental 		| 						|
-| customer 			| films 				| inventory 	| 						|
-| customer 			| customer_payment_info	| 				| customer_id 			|
-| customer 			| address 				| 				| address_id 			|
+| customer              	| order 				| products	                | address                                	
+|-------------------------------|---------------------------------------|-------------------------------|---------
+| varshini			| order no:567			        | SKU:	                        |					  	
+| 8765439879 			| date of order:10/09/23		| MRP:$56	                |						
+| amruthavaesh123@gmail.com 	| order status:completed	        | quality:5			| 				
+| rajajinagar,blore-10 		| billing and shipping address:blore-10	| discount and net price:0-$56	| 						
+
 
 #### The project has 3 category of participants with their functions:
 
